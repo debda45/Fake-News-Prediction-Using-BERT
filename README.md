@@ -10,14 +10,7 @@ The primary objective of this project is to develop a robust system for identify
 
 * **Frameworks:**  Built using PyTorch for model development and fine-tuning.
 
-* **Methodology:**  * Fine-tuned a pre-trained BERT (Bidirectional Encoder Representations from Transformers) model.
-  
-
-* Utilized contextual embeddings to understand word relationships based on their surrounding text.
- 
-
-* Evaluated performance against a Logistic Regression baseline to validate the transition to deep learning.
-
+* **Methodology:**  * Fine-tuned a pre-trained BERT (Bidirectional Encoder Representations from Transformers) model.* Utilized contextual embeddings to understand word relationships based on their surrounding text.* Evaluated performance against a Logistic Regression baseline to validate the transition to deep learning.
 
 ## 📈 Key Results & Impact
 * **Superior Performance:**  Achieved higher Accuracy and F1-scores compared to traditional machine learning baselines.
