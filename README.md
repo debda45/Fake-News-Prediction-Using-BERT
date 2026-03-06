@@ -1,15 +1,44 @@
-# Fake-News-Prediction-Using-BERT
+Fake News Prediction Using BERT
+This project focuses on building a high-accuracy deep learning model for the automated detection of misinformation. By leveraging transformer-based architectures, the model captures deep semantic relationships in text to outperform traditional statistical baselines.
++1
 
-This repository contains a Python notebook for classifying news as real or fake.
+📌 Project Overview
+The primary objective of this project is to develop a robust system for identifying fake news within large-scale datasets. While traditional models like Logistic Regression provide a decent baseline, they often fail to capture the nuanced context and linguistic patterns present in misinformation. This project implements a BERT-based model to bridge that gap.
++1
 
-Project Highlights:
+🛠️ Technical Approach
+Dataset: Analyzed the WELFake dataset, comprising over 72,000 articles.
++1
 
--Dataset: WELFake Dataset (72,000+ articles)
+Frameworks: Built using PyTorch for model development and fine-tuning.
++1
 
--EDA: Includes analysis of article text/title length and label distribution.
+Methodology: * Fine-tuned a pre-trained BERT (Bidirectional Encoder Representations from Transformers) model.
++1
 
--Model 1 (Scikit-learn): LogisticRegression with TfidfVectorizer.
+Utilized contextual embeddings to understand word relationships based on their surrounding text.
++1
 
--Model 2 (Deep Learning): A neural network built with PyTorch.
+Evaluated performance against a Logistic Regression baseline to validate the transition to deep learning.
++1
 
--Goal: Compare the accuracy and F1-score of a traditional ML approach vs. a deep learning approach for fake news detection.
+📈 Key Results & Impact
+Superior Performance: Achieved higher Accuracy and F1-scores compared to traditional machine learning baselines.
++1
+
+Contextual Understanding: Successfully demonstrated the effectiveness of deep learning in capturing complex semantic features that simple word-frequency models miss.
++1
+
+💻 Tech Stack
+Language: Python 
+
+Libraries: PyTorch, Pandas, NumPy, Scikit-learn 
++1
+
+Tools: R Studio, LaTeX 
+
+Author: Debdeep Das 
+M.Sc. Statistics, IIT Kanpur 
++1
+
+Would you like me to add a "How to Run" section with generic installation commands for PyTorch and Transformers?
