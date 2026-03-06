@@ -7,74 +7,71 @@ The primary objective of this project is to develop a robust system for identify
 +1
 
 ## 🛠️ Technical Approach
-Dataset: Analyzed the WELFake dataset, comprising over 72,000 articles.
+* **Dataset: Analyzed the WELFake dataset, comprising over 72,000 articles.
 +1
 
-Frameworks: Built using PyTorch for model development and fine-tuning.
+* **Frameworks: Built using PyTorch for model development and fine-tuning.
 +1
 
-Methodology: * Fine-tuned a pre-trained BERT (Bidirectional Encoder Representations from Transformers) model.
+* **Methodology: * Fine-tuned a pre-trained BERT (Bidirectional Encoder Representations from Transformers) model.
 +1
 
-Utilized contextual embeddings to understand word relationships based on their surrounding text.
+* **Utilized contextual embeddings to understand word relationships based on their surrounding text.
 +1
 
-Evaluated performance against a Logistic Regression baseline to validate the transition to deep learning.
+* **Evaluated performance against a Logistic Regression baseline to validate the transition to deep learning.
 +1
 
 ## 📈 Key Results & Impact
-Superior Performance: Achieved higher Accuracy and F1-scores compared to traditional machine learning baselines.
+* **Superior Performance: Achieved higher Accuracy and F1-scores compared to traditional machine learning baselines.
 +1
 
-Contextual Understanding: Successfully demonstrated the effectiveness of deep learning in capturing complex semantic features that simple word-frequency models miss.
+* **Contextual Understanding: Successfully demonstrated the effectiveness of deep learning in capturing complex semantic features that simple word-frequency models miss.
 +1
 
 ## 💻 Tech Stack
-Language: Python 
+* **Language: Python 
 
-Libraries: PyTorch, Pandas, NumPy, Scikit-learn 
+* **Libraries: PyTorch, Pandas, NumPy, Scikit-learn 
 +1
 
-Tools: R Studio, LaTeX 
+* **Tools: R Studio, LaTeX 
 
-🚀 How to Run
-Clone the repository:
+## 🚀 How to Run
+1. Clone the repository:
 
  ```Bash
 git clone https://github.com/debda45/fake-news-bert.git
  ```
-Install dependencies:
+2. Install dependencies:
 
  ```Bash
 pip install torch transformers pandas numpy scikit-learn
  ```
-Download the Dataset:
+3. Download the Dataset:
 
 Acquire the WELFake dataset (72,000+ articles).
 
 Place the CSV file in the data/ directory.
 
-Run the Training Script:
+4. Run the Training Script:
 
  ```Bash
 python train.py
  ```
-📊 Performance Summary
-Model: Fine-tuned BERT.
+## 📊 Performance Summary
+* **Model: Fine-tuned BERT.
 
-Baseline: Logistic Regression.
+* **Baseline: Logistic Regression.
 
-Primary Metric: High F 
-1
-​	
- -score and Accuracy.
+* **Primary Metric: High F1-score and Accuracy.
 
-Advantage: Captures deep semantic relationships that simple frequency-based models ignore.
+* **Advantage: Captures deep semantic relationships that simple frequency-based models ignore.
 
-Contact & Links
+## Contact & Links
 
-Email: debdeepdas25@iitk.ac.in 
+**Email: debdeepdas25@iitk.ac.in 
 
-GitHub: debda45 
+**GitHub: debda45 
 
-Institution: IIT Kanpur, Department of Mathematics and Statistics
+**Institution: IIT Kanpur, Department of Mathematics and Statistics
